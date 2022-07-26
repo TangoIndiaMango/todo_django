@@ -1,0 +1,20 @@
+{% extends '_partials/base.html' %}
+
+{% load static %}
+
+    {% block content%}
+
+        <img src="{% static 'img/monkey.jpg' %}"/>
+        
+        <h3> List of Todos</h3>
+
+        <ul>
+            <li>Todo 1</li>
+            <li>Todo 2</li>
+            <li>Todo 3</li>
+            <li>Todo 4</li>
+            <li>Todo 5</li>
+            <li>Todo 6</li>
+        </ul>
+
+    {% endblock content %}
